@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GEST</string>
+    <string-array name="options">
+        <item>Clothing</item>
+        <item>Footwear</item>
+        <item>Utensils</item>
+        <item>Grocery</item>
+    </string-array>
+<!--    <string name="my_text">This is an<html> <u>underline </u> </html>.</string>-->
+</resources>

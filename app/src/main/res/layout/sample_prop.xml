@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/view_round"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/propname"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/view_design"
+        android:padding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/moboleprop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/propname"
+        android:layout_margin="10dp"
+        android:background="@drawable/view_design"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/propaddress"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@+id/moboleprop"
+        android:layout_margin="10dp"
+        android:background="@drawable/view_design"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/firnname"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/view_design"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
